@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Configures DNS settings</string>
+            <key>PayloadDisplayName</key>
+            <string>DNS Configuration</string>
+            <key>PayloadIdentifier</key>
+            <string>com.advertsblocker.dnsconfig</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>UNIQUE_UUID</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>DNSSettings</key>
+            <dict>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>YOUR_DOH_DNS_SERVER_IP</string>
+                </array>
+                <key>ServerPort</key>
+                <integer>443</integer>
+                <key>ServerType</key>
+                <string>DoH</string>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>AdvertsBlocker DNS Configuration</string>
+    <key>PayloadIdentifier</key>
+    <string>com.advertsblocker.config</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>UNIQUE_UUID</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
